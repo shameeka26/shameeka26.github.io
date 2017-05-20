@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/shameeka26/shameeka26.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Tibia - Ship Route Calculator</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+	<section id="form">
+		<div id="form-inner">
+			<div id="left-col">
+				<img src="tibia-logo.png">
+				<form>
+					<input type="text" name="departure-city" placeholder="miasto startowe" maxlength="25">
+					<input type="text" name="arrival-city" placeholder="miasto docelowe" maxlength="25">
+					<button>WYSZUKAJ POŁĄCZENIE</button>
+				</form>
+			</div>
+			<div id="right-col">
+				<h2>Znalezione połączenia</h2>
+				<hr>
+				<ul class="routes">
+					<li class="best route-row ">
+						<ul class="route-inner ">
+							<li class="route-number">1</li>
+							<li class="route-details"><span class="departureCity">Venore  </span> - <span class="arrivalCity">Carlin</span></li>
+							<li class="route-price"><img src="coin.svg">130gp</li>
+							
+						</ul>
+					</li>
+					<li class="route-row ">
+						<ul class="route-inner ">
+							<li class="route-number">2</li>
+							<li class="route-details"><span class="departureCity">Venore  </span> - Edron - <span class="arrivalCity">Carlin</span></li>
+							<li class="route-price"></li>
+							
+						</ul>
+					</li>
+					<li class="route-row ">
+						<ul class="route-inner ">
+							<li class="route-number">3</li>
+							<li class="route-details"><span class="departureCity">Venore  </span> - Thais - <span class="arrivalCity">Carlin</span></li>
+							<li class="route-price"></li>
+							
+						</ul>
+					</li>
+					<li class="route-row ">
+						<ul class="route-inner ">
+							<li class="route-number">4</li>
+							<li class="route-details"><span class="departureCity">Venore  </span> - Ankrahmun - <span class="arrivalCity">Carlin</span></li>
+							<li class="route-price"></li>
+							
+						</ul>
+					</li>
+					<li class="route-row ">
+						<ul class="route-inner ">
+							<li class="route-number">5</li>
+							<li class="route-details"><span class="departureCity">Venore  </span> - Lidsadsdasassdsadsssssssssssssssssssberty Bay - Yalahar - <span class="arrivalCity">Carlin</span><</li>
+							<li class="route-price"></li>
+							
+						</ul>
+					</li>
+					
+					
+					
+					
+				</ul>
+				
+			</div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		</div>
+	</section>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shameeka26/shameeka26.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
